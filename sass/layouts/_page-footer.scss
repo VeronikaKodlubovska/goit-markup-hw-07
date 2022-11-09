@@ -1,0 +1,45 @@
+.page-footer.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 252px;
+    background-color: var(--background-footer);
+}
+
+
+.page-footer__wrap {
+    display: flex;
+    align-items: baseline;
+}
+
+.page-footer__logo {
+    padding: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+
+    color: var(--white-color);
+}
+
+.page-footer__list {
+    margin-right: 70px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.page-footer__link--location,
+.page-footer__link {
+    display: inline-block;
+    margin-bottom: 9px;
+    color: var(--contacts-text-color-in-footer);
+
+    text-decoration: none;
+}
+
+.page-footer__link:hover {
+    color: var(--accent-color);
+}
+
+.page-footer__link--location {
+    color: var(--white-color);
+}
