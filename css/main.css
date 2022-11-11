@@ -78,6 +78,7 @@ body {
 .page-header {
   border-bottom: 1px solid var(--border-bottom-color);
 }
+
 .page-header__container {
   display: flex;
   align-items: center;
@@ -126,7 +127,7 @@ body {
   display: flex;
 }
 
-.contacts__list .link {
+.contacts__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -134,12 +135,12 @@ body {
   color: var(--other-text-color);
   transition: color var(--transition);
 }
-.contacts__list .link:hover, .contacts__list .link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
 
 .site-nav__list,
-.contacts__list {
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -150,7 +151,7 @@ body {
   margin-right: 50px;
 }
 
-.contacts__list {
+.contacts {
   display: flex;
   margin-left: auto;
 }
@@ -172,10 +173,6 @@ body {
   vertical-align: middle;
 }
 
-.header-portfolio {
-  border-bottom: 1px solid var(--border-bottom-color);
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -190,7 +187,7 @@ body {
   margin: -1px;
 }
 
-.hero-section {
+.hero {
   padding-top: 200px;
   padding-bottom: 210px;
   letter-spacing: 0.06em;
@@ -203,7 +200,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero-section__title {
+.hero__title {
   margin-bottom: 30px;
   color: var(--white-color);
   font-weight: 900;
@@ -214,7 +211,7 @@ body {
 }
 
 /* Button */
-.hero-section__button {
+.hero__button {
   display: inline-block;
   min-width: 216px;
   border-radius: 4px;
@@ -230,11 +227,11 @@ body {
   cursor: pointer;
   transition: background-color var(--transition);
 }
-.hero-section__button:hover, .hero-section__button:focus, .hero-section__button:active {
+.hero__button:hover, .hero__button:focus, .hero__button:active {
   background-color: var(--main-button-active);
 }
 
-.features-section {
+.features {
   padding-top: 85px;
 }
 
@@ -276,11 +273,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-.works {
+.works__list {
   display: flex;
   justify-content: center;
 }
-.works .works__item:not(:last-child) {
+.works__list .works__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -607,7 +604,7 @@ body {
   margin-right: 8px;
 }
 
-.portfolio.list {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;

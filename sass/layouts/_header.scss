@@ -1,10 +1,11 @@
 .page-header {
     border-bottom: 1px solid var(--border-bottom-color);
-    &__container {
+}
+
+.page-header__container {
             display: flex;
             align-items: center;
         }
-}
 
 .logo {
     padding-top: 24px;
@@ -56,7 +57,7 @@
     display: flex;
 }
 
-.contacts__list .link {
+.contacts__link {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -73,7 +74,7 @@
 }
 
 .site-nav__list,
-.contacts__list {
+.contacts {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -84,7 +85,7 @@
     margin-right: 50px;
 }
 
-.contacts__list {
+.contacts {
     display: flex;
     margin-left: auto;
 }
@@ -106,8 +107,4 @@
 .contacts__mail,
 .contacts__tel {
     vertical-align: middle;
-}
-
-.header-portfolio {
-    border-bottom: 1px solid var(--border-bottom-color);
 }
