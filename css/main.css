@@ -479,6 +479,11 @@ body {
   text-decoration: none;
 }
 
+.page-footer__link:hover,
+.page-footer__link:focus {
+  color: var(--accent-color);
+}
+
 .page-footer__link--location {
   color: var(--white-color);
 }
